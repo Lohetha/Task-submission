@@ -1,0 +1,434 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    width:100%;
+    height: 80px;
+    background-color: black;
+    
+}
+
+.glyphicon-pencil{
+    padding-top:18px ;
+    padding-left: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+  }
+
+.logo-name{
+    min-width:150px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:19px;
+    font-family: cursive;
+}
+
+.item1{
+    margin-left: 408px;
+}
+.menu{
+    min-width:150px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:19px;
+}
+
+.menu:hover{
+    background-color: rgb(65, 63, 63);
+}
+
+a{
+  color:white;
+}
+
+a:visited {
+    color: white;
+    text-decoration:none; 
+  }
+
+a:hover {
+    color: white;
+    text-decoration:none; 
+  }
+a:active {
+    color: white;
+    text-decoration:none; 
+  }
+
+.content{
+    background-color: #474444;
+    height: 150px;
+}
+
+.top-blog{
+  height:250px;
+  padding-bottom:100px;
+}
+
+.p0{
+  width:200px;
+}
+.p1{
+  width:308px;
+}
+
+.p2{
+  width:444px;
+}
+
+.p3{
+  width:250px;
+}
+
+.p4{
+  width:300px;
+}
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 8px 15px 25px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card {
+    background-color:greenyellow;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width:300px;
+    margin-left:65px;
+    color: black;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    width:300px;
+    height:250px;
+    
+  }
+
+  .topic-header{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+  .title{
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+hr{
+  width: 50%;
+  align-self: center;
+  text-decoration-thickness: 5px;
+  color:black;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.topic-container{
+  margin-top: 50px;
+}
+
+.image-container{
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+#blog-img{
+  width: 100%;
+  height:710px;
+  border-radius: 0 0 10% 10%;
+  opacity:0.9;
+}
+
+.about-content{
+  position:absolute;
+  top: 3%;
+  left:5%;
+  right:5%;
+  font-size: 1.9em;
+  font-style: italic;
+  color:white;
+}
+
+#card1{
+  top:38%;
+  position: absolute;
+  box-shadow:5px 8px 11px 5px rgba(0,0,0,0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  margin-left:18%;
+  transform-style:preserve-3d;
+  transition: all 0.5 ease;
+}
+
+.center1{
+  margin-top:3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+
+}
+
+#card2{
+  top:38%;
+  position: absolute;
+  box-shadow: 5px 8px 11px 5px rgba(255, 255, 255, 0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  margin-left:40%;
+  transform-style:preserve-3d;
+  transition: all 0.5 ease;
+}
+
+#card3{
+  top:38%;
+  position: absolute;
+  box-shadow: 5px 8px 11px 5px rgba(0,0,0,0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  margin-left:62%;
+  transform-style:preserve-3d;
+  transition: all 0.5 ease;
+}
+
+.about-a:visited, .about-a:active, .about-a:link{
+  text-decoration: none;
+  color:black;
+}
+
+.about-a:hover{
+  color:rgb(140, 165, 233);
+}
+
+#price-img{
+  width: 100%;
+  height:700px;
+  border-bottom: 15px solid rgb(142, 143, 68);
+  border-bottom-right-radius: 15%;
+}
+
+.pricing-content{
+  position:absolute;
+  top: 3%;
+  left:3%;
+  right:5%;
+  color:white;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+#card1p{
+  top:38%;
+  position: absolute;
+  background-color:rgb(70, 117, 117);
+  box-shadow:0 5px 8px 0 rgba(255, 255, 255, 1);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  margin-left:18%;
+  color: rgb(255, 255, 255);
+}
+
+.center1{
+  margin-top:3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+
+}
+
+#card2p{
+  top:30%;
+  position: absolute;
+  background-color:rgb(105, 116, 59);
+  box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 1);
+  transition: 0.3s;
+  border-radius: 5px; 
+  width:300px;
+  margin-left:40%;
+  color: rgb(255, 255, 255);
+}
+
+#card3p{
+  top:38%;
+  position: absolute;
+  background-color:rgb(122, 103, 77);
+  box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 1);
+  transition: 0.3s;
+  border-radius: 5px; 
+  width:300px;
+  margin-left:62%;
+  color: rgb(255, 255, 255);
+}
+
+button{
+  background-color: #0a6fe2;
+  border-radius: 8px;
+  text-decoration: none;
+  height:30px;
+  margin-bottom:10px;
+  border: none;
+}
+
+button:hover{
+  background-color: #0b4f9c ;
+}
+
+.plan-type{
+  background-color: rgb(46, 45, 45);
+  height:40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+}
+
+#subs{
+  background-image: url('https://assets.hongkiat.com/uploads/40-cool-abstract-and-background-photoshop-tutorials/yellow-green-abstract.jpg');
+  border-radius: 5%;
+  height:400px;
+  width:350px;
+  padding:40px;
+  margin-left:40%;
+}
+
+input{
+  border-radius: 5px;
+  border:none;
+  height:30px;
+  width:250px;
+}
+
+#subs-button{
+  background-color: #78e65d;
+  margin-left:35%;
+}
+
+#subs-button:hover{
+  background-color: #53eb2d;
+  margin-left:35%;
+  border-width: 2px;
+  border-color: indigo;
+}
+
+#contact_us{
+  background-color: black;
+  min-height: 250px;
+}
+
+#contact-name{
+  padding:20px;
+  color:white;
+  font-weight: normal;
+}
+
+.fa {
+  margin-left: 10%;
+  color: white;
+  padding-top:0.5%;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-envelope{
+  margin-left:7.7%;
+}
+
+.social-media{
+  padding-left: 4px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.social-media:hover{
+  color:rgb(88, 172, 240);
+}
+
+.span-contact{
+  margin-left: 15%;
+  color: white;
+  font-size:1.3em;
+}
+
+#move-top{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+}
+
+.front{
+  position:absolute;
+  backface-visibility: hidden;
+  top:38%;
+  background: rgb(82, 59, 182);
+  box-shadow: 5px 8px 11px 5px rgba(0,0,0,0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  color: black;
+}
+
+.front:hover{
+  opacity:0.8;
+}
+
+.back{
+  position:absolute;
+  background-color: rgb(113, 91, 212);
+  color:black;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  top:38%;
+  box-shadow: 5px 8px 11px 5px rgba(0,0,0,0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  width:300px;
+  color: black;
+}
+
+.back:hover{
+  opacity: 0.8;
+}
+
+.flipCard{
+  transform:rotateY(180deg);
+}
+
+.back-desc{
+  font-size: 1.2em;
+}
